@@ -1,0 +1,53 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 120px;
+    background: url("esports-3.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #login-form {
+    padding: 20px;
+    
+    border-radius: 50px;
+    background: transparent; 
+     backdrop-filter: blur(1.5px);   
+  }
+  #login-form h1 {
+    font-size: 1.5em;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+  #login-form label, #login-form input {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  #login-form label { color: black; }
+  #login-form input {
+    padding: 10px;
+    border: 1px solid #adadad;
+    border-radius: 90px;
+  }
+  #login-form input[type=submit] {
+    margin-top: 20px;
+    border: 0;
+    color: black;
+    background: #4caf4c ;
+    cursor: pointer;
+  }
+  
+  #login-bad {
+    padding : 10px;
+    margin-bottom: 20px;
+    background: #ffe7e7;
+    border: 1px solid #ff3e3e;
+    color: #c10000;
+    font-weight: bold;
+  }
